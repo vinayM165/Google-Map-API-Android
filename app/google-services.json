@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "208063838935",
+    "firebase_url": "https://mmap-demo.firebaseio.com",
+    "project_id": "mmap-demo",
+    "storage_bucket": "mmap-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208063838935:android:3e4198c62be633fb35ce92",
+        "android_client_info": {
+          "package_name": "com.example.mmap_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "208063838935-a77fuhr8orjgn3ep6p73cdpq7fgod106.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh8WTvf55E-bmNY0-RvQGjxEmzHaVngNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "208063838935-a77fuhr8orjgn3ep6p73cdpq7fgod106.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
