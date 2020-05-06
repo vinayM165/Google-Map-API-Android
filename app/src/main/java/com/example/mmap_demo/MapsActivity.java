@@ -107,8 +107,10 @@ public class MapsActivity extends AppCompatActivity   {
 
                             LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
                             MarkerOptions markerOptions = new MarkerOptions().position(latLng).title("I Am Here!");
-                            googleMap.animateCamera(CameraUpdateFactory.newLatLngZoom(latLng, 10));
                             googleMap.addMarker(markerOptions);
+                            float zoomLevel = 16.0f; //This goes up to 21
+                            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, zoomLevel));
+
                         }
                     });
                 }
